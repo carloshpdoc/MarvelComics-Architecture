@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A2CBBE822721C1A00E2A984 /* MarvelComicsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A2CBBE722721C1A00E2A984 /* MarvelComicsCollectionViewCell.swift */; };
+		6A46EEDF22732EEC0012F26F /* ComicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A46EEDE22732EEC0012F26F /* ComicsViewController.swift */; };
+		6A5B34C3226A3DF7003EF388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B34C2226A3DF7003EF388 /* AppDelegate.swift */; };
+		6A5B34C5226A3DF7003EF388 /* MarvelHeroesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B34C4226A3DF7003EF388 /* MarvelHeroesViewController.swift */; };
+		6A5B34C8226A3DF7003EF388 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B34C6226A3DF7003EF388 /* Main.storyboard */; };
+		6A5B34CA226A3DFE003EF388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B34C9226A3DFE003EF388 /* Assets.xcassets */; };
+		6A5B34CD226A3DFE003EF388 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A5B34CB226A3DFE003EF388 /* LaunchScreen.storyboard */; };
+		6A5B34D8226D2211003EF388 /* Source.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B34D7226D2211003EF388 /* Source.swift */; };
+		6A5B34DA226D2304003EF388 /* MarvelAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5B34D9226D2304003EF388 /* MarvelAPI.swift */; };
+		FF2536EB369E01F9EF3F230C /* Pods_MarvelMVCExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9115D3A3E03F4FCEA3F906C0 /* Pods_MarvelMVCExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		674AD873EA984D009DF8AEDD /* Pods-MarvelMVCExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelMVCExample.release.xcconfig"; path = "Target Support Files/Pods-MarvelMVCExample/Pods-MarvelMVCExample.release.xcconfig"; sourceTree = "<group>"; };
+		6A2CBBE722721C1A00E2A984 /* MarvelComicsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelComicsCollectionViewCell.swift; sourceTree = "<group>"; };
+		6A46EEDE22732EEC0012F26F /* ComicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicsViewController.swift; sourceTree = "<group>"; };
+		6A5B34BF226A3DF7003EF388 /* MarvelMVCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelMVCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A5B34C2226A3DF7003EF388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A5B34C4226A3DF7003EF388 /* MarvelHeroesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelHeroesViewController.swift; sourceTree = "<group>"; };
+		6A5B34C7226A3DF7003EF388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A5B34C9226A3DFE003EF388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A5B34CC226A3DFE003EF388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A5B34CE226A3DFE003EF388 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A5B34D7226D2211003EF388 /* Source.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Source.swift; sourceTree = "<group>"; };
+		6A5B34D9226D2304003EF388 /* MarvelAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelAPI.swift; sourceTree = "<group>"; };
+		9115D3A3E03F4FCEA3F906C0 /* Pods_MarvelMVCExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelMVCExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B21FB8028F3BCAE8CEDB0307 /* Pods-MarvelMVCExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelMVCExample.debug.xcconfig"; path = "Target Support Files/Pods-MarvelMVCExample/Pods-MarvelMVCExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A5B34BC226A3DF7003EF388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF2536EB369E01F9EF3F230C /* Pods_MarvelMVCExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65F243C9AFC0308F9F94596A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9115D3A3E03F4FCEA3F906C0 /* Pods_MarvelMVCExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A5B34B6226A3DF7003EF388 = {
+			isa = PBXGroup;
+			children = (
+				6A5B34C1226A3DF7003EF388 /* MarvelMVCExample */,
+				6A5B34C0226A3DF7003EF388 /* Products */,
+				8902F975048B83D45F710349 /* Pods */,
+				65F243C9AFC0308F9F94596A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6A5B34C0226A3DF7003EF388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B34BF226A3DF7003EF388 /* MarvelMVCExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A5B34C1226A3DF7003EF388 /* MarvelMVCExample */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B34D6226A3E45003EF388 /* Models */,
+				6A5B34D4226A3E2C003EF388 /* Views */,
+				6A5B34D5226A3E33003EF388 /* Controllers */,
+				6A5B34C2226A3DF7003EF388 /* AppDelegate.swift */,
+				6A5B34C9226A3DFE003EF388 /* Assets.xcassets */,
+				6A5B34CB226A3DFE003EF388 /* LaunchScreen.storyboard */,
+				6A5B34CE226A3DFE003EF388 /* Info.plist */,
+			);
+			path = MarvelMVCExample;
+			sourceTree = "<group>";
+		};
+		6A5B34D4226A3E2C003EF388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A2CBBE722721C1A00E2A984 /* MarvelComicsCollectionViewCell.swift */,
+				6A5B34C6226A3DF7003EF388 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A5B34D5226A3E33003EF388 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B34C4226A3DF7003EF388 /* MarvelHeroesViewController.swift */,
+				6A46EEDE22732EEC0012F26F /* ComicsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6A5B34D6226A3E45003EF388 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A5B34D7226D2211003EF388 /* Source.swift */,
+				6A5B34D9226D2304003EF388 /* MarvelAPI.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8902F975048B83D45F710349 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B21FB8028F3BCAE8CEDB0307 /* Pods-MarvelMVCExample.debug.xcconfig */,
+				674AD873EA984D009DF8AEDD /* Pods-MarvelMVCExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A5B34BE226A3DF7003EF388 /* MarvelMVCExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A5B34D1226A3DFE003EF388 /* Build configuration list for PBXNativeTarget "MarvelMVCExample" */;
+			buildPhases = (
+				4B933A48B1D5A3C30E81364E /* [CP] Check Pods Manifest.lock */,
+				6A5B34BB226A3DF7003EF388 /* Sources */,
+				6A5B34BC226A3DF7003EF388 /* Frameworks */,
+				6A5B34BD226A3DF7003EF388 /* Resources */,
+				50846ACE17E9016CFC661036 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarvelMVCExample;
+			productName = MarvelMVCExample;
+			productReference = 6A5B34BF226A3DF7003EF388 /* MarvelMVCExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A5B34B7226A3DF7003EF388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = carloshpdoc;
+				TargetAttributes = {
+					6A5B34BE226A3DF7003EF388 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 6A5B34BA226A3DF7003EF388 /* Build configuration list for PBXProject "MarvelMVCExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A5B34B6226A3DF7003EF388;
+			productRefGroup = 6A5B34C0226A3DF7003EF388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A5B34BE226A3DF7003EF388 /* MarvelMVCExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A5B34BD226A3DF7003EF388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A5B34CD226A3DFE003EF388 /* LaunchScreen.storyboard in Resources */,
+				6A5B34CA226A3DFE003EF388 /* Assets.xcassets in Resources */,
+				6A5B34C8226A3DF7003EF388 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B933A48B1D5A3C30E81364E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarvelMVCExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50846ACE17E9016CFC661036 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarvelMVCExample/Pods-MarvelMVCExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftHash/SwiftHash.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftHash.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarvelMVCExample/Pods-MarvelMVCExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A5B34BB226A3DF7003EF388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A46EEDF22732EEC0012F26F /* ComicsViewController.swift in Sources */,
+				6A5B34C5226A3DF7003EF388 /* MarvelHeroesViewController.swift in Sources */,
+				6A2CBBE822721C1A00E2A984 /* MarvelComicsCollectionViewCell.swift in Sources */,
+				6A5B34C3226A3DF7003EF388 /* AppDelegate.swift in Sources */,
+				6A5B34D8226D2211003EF388 /* Source.swift in Sources */,
+				6A5B34DA226D2304003EF388 /* MarvelAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6A5B34C6226A3DF7003EF388 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5B34C7226A3DF7003EF388 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A5B34CB226A3DFE003EF388 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A5B34CC226A3DFE003EF388 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A5B34CF226A3DFE003EF388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A5B34D0226A3DFE003EF388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A5B34D2226A3DFE003EF388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21FB8028F3BCAE8CEDB0307 /* Pods-MarvelMVCExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93MZ3GFWB;
+				INFOPLIST_FILE = MarvelMVCExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carloshpdoc.MarvelMVCExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A5B34D3226A3DFE003EF388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 674AD873EA984D009DF8AEDD /* Pods-MarvelMVCExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M93MZ3GFWB;
+				INFOPLIST_FILE = MarvelMVCExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = carloshpdoc.MarvelMVCExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A5B34BA226A3DF7003EF388 /* Build configuration list for PBXProject "MarvelMVCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5B34CF226A3DFE003EF388 /* Debug */,
+				6A5B34D0226A3DFE003EF388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A5B34D1226A3DFE003EF388 /* Build configuration list for PBXNativeTarget "MarvelMVCExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A5B34D2226A3DFE003EF388 /* Debug */,
+				6A5B34D3226A3DFE003EF388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A5B34B7226A3DF7003EF388 /* Project object */;
+}
